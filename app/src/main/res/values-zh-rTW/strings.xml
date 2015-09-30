@@ -44,6 +44,7 @@
     <string name="menu_search">搜尋</string>
 
     <string name="menu_home">首頁</string>
+    <string name="menu_refresh">重整</string>
     <string name="menu_info">關於</string>
     <string name="menu_restore">還原</string>
     <string name="menu_backup">備份</string>
@@ -74,10 +75,14 @@
     <string name="setting_module_disabled">模組已禁用</string>
     <string name="setting_more_type">深度替換</string>
     <string name="setting_more_type_summary">將替換更多類型的字符（如果導致圖片不正確，請取消這個選項）</string>
+    <string name="setting_use_regex">正規表示式</string>
+    <string name="setting_debug">偵錯模式</string>
+    <string name="setting_use_regex_summary">替換預設支援正規表示式（如果出現）</string>
     <string name="setting_custom_message">自定義資訊</string>
     <string name="setting_default_message">模組可用</string>
     <string name="setting_custom_message_summary">修改模組可用時在主界面上顯示的資訊</string>
     <string name="setting_check_update">手動檢查更新</string>
+
 
     <string name="setting_about_module">關於模組</string>
     <string name="setting_module_name">文字自定義</string>
@@ -115,8 +120,8 @@
     <string name="menu_select_mode">編輯模式</string>
 
     <string name="dialog_about">更新日誌：
-        \n   增加一个正则表达式的开关（这就是为何无法替换带有"+"等其他符号的原因。默认关闭了，有需要自行开启）
-        \n   可以為單個應用導入導出配置文件
+        \n   增加一個正規表示式的開關（這就是為何無法替換帶有"+"等其他符號的原因。預設關閉了，有需要自行開啟）
+        \n   可以為單個程式匯入匯出配置文件
         \n   UI 調整
         \n   修復一些 Bug..
         \n   中秋節快樂 ^_^
@@ -130,4 +135,20 @@
         \n   作者：liubaoyua
         \n   目前版本：
     </string>
+    <string name="select_picture">選擇圖片</string>
+    <string-array name="change_picture">
+        <item>選擇圖片</item>
+        <item>預設圖片</item>
+    </string-array>
+
+    <string name="menu_imp_exp_pref">匯入匯出</string>
+    <string name="menu_extra_setting">更多設定</string>
+    <string name="dialog_imp_exp_message">可以將目前的配置檔案匯出分享给别人，也可以匯入别人分享的配置檔案。</string>
+    <string name="dialog_pos_exp">匯出</string>
+    <string name="dialog_neg_imp">匯入</string>
+    <string name="toast_imp_succed">匯入成功，請重啟程式</string>
+    <string name="toast_imp_fail">匯入失敗 : </string>
+    <string name="toast_imp_fail_invaild_file">匯入失敗 : 檔案不存在或無法讀取或非 xml 配置檔案 </string>
+    <string name="dialog_override_global_setting">以下選項設定會覆蓋全局設定</string>
+
 </resources>
