@@ -145,7 +145,7 @@
     <string name="dialog_pos_exp">Export</string>
     <string name="dialog_override_global_setting">Setting below will override global setting</string>
     <string name="dialog_neg_imp">Import</string>
-    <string name="dialog_imp_exp_message">You can share you pref files whit others or get pref files from other.</string>
+    <string name="dialog_imp_exp_message">You can share you pref files with others or get pref files from other.</string>
     <string name="menu_extra_setting">More Settings</string>
     <string name="setting_debug">Debug Mode</string>
 
